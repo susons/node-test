@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/app.js"></script>
+    <link rel="icon" href="/images/weather.png"/>
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <p>This page is about: {{ name }}</p>
+      <div class="image-container">
+        <img src="./images/bridge.jpg"/>
+      </div>
+    </div>
+    {{>footer}}
+  </body>
+</html>
