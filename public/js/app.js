@@ -19,5 +19,4 @@ weatherForm.addEventListener('submit',  (e) => {
         }
       })
   })
-  
 })
