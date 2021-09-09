@@ -10,7 +10,7 @@ const geocode = require('./utils/geocode');
 // console.log(path.join(__dirname, '../public/index.html'))
 
 const app = express();
-const port = app.process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //& Define path for config
 const publicPath = path.join(__dirname, '../public');
