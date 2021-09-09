@@ -76,7 +76,7 @@ app.get('/about', (req, res) => {
   res.render('about', {
     name: 'My name is my name',
     footerText: 'This is a footer',
-    title: 'About page'
+    title: 'About page',
   });
 });
 
